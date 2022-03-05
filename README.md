@@ -1,31 +1,34 @@
 # battleDev-March-2020
 
 Objective
-You are in charge of carrying out an exciting marketing study on the packaging of a new 
-organic yoghurt issued from short circuits. Even if you regret to see a "responsible" 
-brand inspired by the methods of industrial producers, this is your job and you have no 
-choice... You receive the results of a study where consumers indicate the colour they 
-prefer for packaging. Not wanting to make such an important decision alone, you want 
-to present the 2 preferred colors to your boss.
-Data format
-Input
-Row 1: an integer N between 3 and 10 000 corresponding to the number of people 
-interviewed. 
-Rows 2 to N+1 : a string comprising between 4 and 10 lower case letters corresponding 
-to the color preferred by a given person.
-Output
-Two strings separated by a space representing the two colors that come out the most. 
-The first string must be the color that is favored by the greatest number of people.
-There will never be two colors with the same number of votes.
+
+You are in charge of carrying out an exciting marketing study on the packaging of a new organic yogurt from short circuits. Even if you regret seeing a "responsible" brand draw inspiration from the methods of industrial producers, it's your job and you have no choice... You receive the results of a study where consumers indicate the color which they prefer for packaging. Not wanting to make such an important decision on your own, you want to present the 2 most requested colors to your boss.
+
+Data
+
+Entrance
+
+Line 1: an integer N between 3 and 10,000 corresponding to the number of people questioned.
+Lines 2 through N +1: A string of between 4 and 10 lowercase alphabetic characters corresponding to the preferred color for packaging for a given person.
+
+Exit
+
+Two character strings separated by a space representing the two preferred colors. The most popular color should appear first.
+
+We guarantee you that there will never be 2 tied colors.
+
 Example
-Input
-6
-red
-yellow
-blue
-red
-yellow
-red
-Output
-red yellow
-Because red got 3 votes, yellow two votes and blue 1 vote
+
+For the entrance :
+6 
+rouge
+jaune
+bleu
+rouge
+jaune
+Red 
+
+The answer is :
+Red Yellow 
+
+Because red got 3 votes, yellow two votes and blue 1 vote. 
