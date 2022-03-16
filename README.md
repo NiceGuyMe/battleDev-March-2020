@@ -32,3 +32,10 @@ The answer is :
 Red Yellow 
 
 Because red got 3 votes, yellow two votes and blue 1 vote. 
+
+# How to run this code? 
+
+to run the code you need to :
+- Download and install nodeJS on your pc
+- Do an nmp install to install the necessary tools
+- Run node yogurt.js on terminal
